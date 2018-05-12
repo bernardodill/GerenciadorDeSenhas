@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="440.0" style="-fx-background-color: #333;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="43.0" layoutY="50.0" prefHeight="301.0" prefWidth="331.0" style="-fx-background-color: #555; -fx-background-radius: 10px;">
+         <children>
+            <TextField layoutX="91.0" layoutY="96.0" promptText="Usuario" />
+            <TextField layoutX="91.0" layoutY="136.0" promptText="Senha" />
+            <Button layoutX="141.0" layoutY="181.0" mnemonicParsing="false" text="Entrar" />
+            <Label layoutX="33.0" layoutY="27.0" text="Gerenciador de Senhas" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
